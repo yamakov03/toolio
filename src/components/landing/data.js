@@ -4,7 +4,7 @@ import {
   FaceSmileIcon
 } from "@heroicons/react/24/solid";
   
-  import colorful_ribbon2 from "../../../../public/img/colorful_ribbon2.png";
+  import colorful_ribbon2 from "../../../public/img/colorful_ribbon2.png";
   
   const benefitOne = {
     title: "Let's build the future together",

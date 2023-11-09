@@ -8,7 +8,7 @@ import {
 import { signIn } from "next-auth/react";
 import Link from "next/link";
 import React from "react";
-import { hash } from "../../../lib/crypto";
+import { hash } from "../../lib/crypto";
 export function Register() {
     const [addRes, setAddRes] = React.useState({success: true, message: null});
     async function onSubmit(event) {

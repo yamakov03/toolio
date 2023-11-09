@@ -1,10 +1,10 @@
 import { Alert } from '@material-tailwind/react';
 import { getSession, useSession } from 'next-auth/react';
 import React, { useEffect } from 'react';
-import Loading from '../components/loading';
-import Layout from '../components/mainLayout';
-import { EditProfileModal } from '../components/profile/editProfileModal';
-import { Tag } from '../components/tag';
+import Loading from '../../components/loading';
+import Layout from '../../components/mainLayout';
+import { EditProfileModal } from '../../components/profile/editProfileModal';
+import { Tag } from '../../components/tag';
 
 export default function Profile({user}) {
     const { data: session, status } = useSession();

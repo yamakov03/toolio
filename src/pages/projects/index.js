@@ -1,13 +1,13 @@
 import { getSession } from 'next-auth/react';
 import Router from 'next/router';
 import React, { useEffect } from 'react';
-import ProjectGrid from '../components/dashboard/projectGrid';
-import Layout from '../components/mainLayout';
+import ProjectGrid from '../../components/dashboard/projectGrid';
+import Layout from '../../components/mainLayout';
 
 import { Alert } from '@material-tailwind/react';
 import { useSession } from 'next-auth/react';
-import { AddProjectModal } from '../components/dashboard/addProjectModal';
-import Loading from '../components/loading';
+import { AddProjectModal } from '../../components/dashboard/addProjectModal';
+import Loading from '../../components/loading';
 
 export default function Projects({ user }) {
 

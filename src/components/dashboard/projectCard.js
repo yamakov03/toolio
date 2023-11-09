@@ -17,8 +17,8 @@ import {
 } from "@material-tailwind/react";
 import { useSession } from "next-auth/react";
 import React from "react";
-import { getColor } from "../../../lib/colors";
-import { hash } from "../../../lib/crypto";
+import { getColor } from "../../lib/colors";
+import { hash } from "../../lib/crypto";
 import { Tag } from "../tag";
 import { EditProjectModal } from "./editProjectModal";
 

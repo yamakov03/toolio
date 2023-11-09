@@ -12,7 +12,7 @@ import {
     Typography
 } from "@material-tailwind/react";
 import { useSession } from "next-auth/react";
-import { hash } from "../../../lib/crypto";
+import { hash } from "../../lib/crypto";
 
 export function EditProfileModal({ user, setAlert, setAlerted }) {
     const { data: session, status } = useSession();

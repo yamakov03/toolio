@@ -1,12 +1,12 @@
-import Hero from "./components/landing/hero";
-import NavbarDefault from "./components/landing/navbar";
-import SectionTitle from "./components/landing/sectionTitle";
+import Hero from "../components/landing/hero";
+import NavbarDefault from "../components/landing/navbar";
+import SectionTitle from "../components/landing/sectionTitle";
 
-import Footer from "./components/footer";
-import Benefits from "./components/landing/benefits";
-import Cta from "./components/landing/cta";
-import { benefitOne } from "./components/landing/data";
-import Faq from "./components/landing/faq";
+import Footer from "../components/footer";
+import Benefits from "../components/landing/benefits";
+import Cta from "../components/landing/cta";
+import { benefitOne } from "../components/landing/data";
+import Faq from "../components/landing/faq";
 
 const Home = () => {
   return (

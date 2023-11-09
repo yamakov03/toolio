@@ -1,7 +1,7 @@
 import { Button } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
-import colorful_ribbon from "../../../../public/img/colorful_ribbon.png";
+import colorful_ribbon from "../../../public/img/colorful_ribbon.png";
 import Container from "../container";
 
 const Hero = () => {

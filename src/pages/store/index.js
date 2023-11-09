@@ -1,12 +1,12 @@
 import { getSession } from 'next-auth/react';
 import Router from 'next/router';
 import React, { useEffect } from 'react';
-import Layout from '../components/mainLayout';
+import Layout from '../../components/mainLayout';
 
 import { Alert } from '@material-tailwind/react';
 import { useSession } from 'next-auth/react';
-import Loading from '../components/loading';
-import ItemsGrid from '../components/store/itemsGrid';
+import Loading from '../../components/loading';
+import ItemsGrid from '../../components/store/itemsGrid';
 
 export default function Projects({ user }) {
 
