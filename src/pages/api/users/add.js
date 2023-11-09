@@ -1,4 +1,4 @@
-import { hash } from "../../lib/crypto";
+import { hash } from "../../../lib/crypto";
 import clientPromise from "../../../lib/mongodb";
 import User from "../../../lib/user";
 
